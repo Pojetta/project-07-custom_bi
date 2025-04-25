@@ -29,6 +29,7 @@ logger.add(LOG_FILE, level="INFO")
 # logger.add(sys.stderr, level="DEBUG")
 
 
+
 def log_example() -> None:
     """Example logging function to demonstrate logging behavior."""
     logger.info("This is an example info message.")
